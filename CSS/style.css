@@ -1,0 +1,215 @@
+body{
+    position: relative;
+}
+
+
+
+/* classes of top*/
+
+.top{    
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    background-image: url('http://getwallpapers.com/wallpaper/full/d/7/3/369465.jpg');
+    background-size: 100% 125%;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.topBudget{
+    font-size: 45px;
+}
+
+.topIncome{
+    width: 320px;
+    padding: 10px;
+    background-color: lightseagreen;
+    margin-left: 41%;
+    font-size: large;
+}
+
+.topIncomeLeft{
+    display:inline-block;
+    float: left;
+    color: black;
+}
+
+.topExpense{
+    margin-top: -10px;
+    width: 320px;
+    padding: 10px;
+    background-color: orangered;
+    margin-left: 41%;
+    font-size: large;
+}
+
+.topExpenseLeft{
+    display:inline-block;
+    float: left;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Classes of Middle*/
+
+.middle{
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input_details{
+    margin-left: 38%;
+}
+
+.item_description{
+    border-radius: 6px;
+    padding: 5px;
+    height: 30px;
+    width: 320px;
+    border-color: cyan;
+}
+
+.item_value{
+    border-radius: 6px;
+    padding: 5px;
+    height: 30px;
+    width: 100px;
+}
+.add_btn{
+    cursor: pointer; 
+    vertical-align: middle;
+    transition: 0.5s;
+}
+
+.add_btn:active{
+    transform: scale(2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Classes of Bottom*/
+
+
+.bottom{
+    font-size: large;
+
+        overflow-x: hidden;
+        overflow-y: auto;
+}
+
+.incomeDetail{
+    float: left;
+    color: lightseagreen;
+    margin-left: 30%;
+    display: inline-block;
+    width: 500px;
+    height: auto;
+} 
+
+.income_element{
+    font-size: 20px;
+    margin-top: -30px;
+    transition: 1s;
+    width: auto;
+}
+
+.income_element:hover {
+    transform: translateX(-30px);   
+}
+
+.incomeDescription{
+    display: inline-block;
+    color: black;
+    width: 200px;
+}
+
+.incomeValue{
+    display: inline-block;
+    padding: 20px;
+}
+
+.deleteIcon{
+    opacity: 0;
+    top: 5px;
+    margin-left: 10px;
+    transition: 1s;
+    position: relative;
+    cursor: pointer;
+}
+
+.deleteIcon:active{
+    transform: scale(2);
+}
+
+.income_element:hover  .deleteIcon{
+    opacity: 1;   
+}
+
+.expenseDetail{
+    display: inline-block;
+    color: red;
+    position: relative;
+    width: 500px;
+    height: auto;
+}
+
+.expense_element{
+    font-size: 20px;
+    margin-top: -30px;
+    width: auto;
+    transition: 1s;
+}
+
+.expenseDescription{
+    display: inline-block;
+    color: black;
+    width: 200px;
+}
+
+.expenseValue{
+    display: inline-block;
+    padding: 20px;
+}
+
+.expense_element:hover {
+    transform: translateX(-30px);   
+}
+
+
+.expense_element:hover  .deleteIcon{
+    opacity: 1;   
+}

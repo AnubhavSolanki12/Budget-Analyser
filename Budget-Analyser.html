@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Budgety</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+    </head>
+    <body>
+
+
+
+        <div class="top">
+            <div>
+                Available Budget in <span class="month">%month%</span> <span class="year">%year</span> :
+            </div>
+            <br>
+            <div class="topBudget">
+                + 4,000.00
+            </div>
+            <br>
+            <div class="topIncome">
+                <div class="topIncomeLeft">
+                    INCOME
+                </div>
+                <div class="topIncomeRight">
+                    +4,000.00
+                </div>
+            </div>
+            <br>
+            <div class = "topExpense">
+                <div class="topExpenseLeft">
+                    EXPENSE
+                </div>
+                <div class="topExpenseRight">
+                    -4,000.00
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="middle">
+            <div class="input_details">
+                <select class="add_type" style="height: 30px; width: auto; padding: 5px;">
+                    <option value="inc" selected> + </option>
+                    <option value="exp"> - </option>
+                </select>
+                <input class="item_description" placeholder="Description" type="text">
+                <input class="item_value" placeholder="Value" type="text">
+                <img class="add_btn" width="30px" height="auto" src="Icons/tick.png">
+            </div>
+        </div>
+
+
+
+
+
+        <br><br><br>
+        <div class="bottom">
+            <div class="incomeDetail">
+                <h2><b>INCOME</b></h2>
+                <br><br>
+                <!--
+                <div class="income_element" id="inc-%id%">
+                    <div class="incomeDescription">
+                        %description%
+                    </div>
+                    <div class="incomeValue">
+                        %value%
+                        <img class="deleteIcon" width="25px" height="auto" src="Icons/delete.png">
+                    </div>
+                </div>
+                -->
+                   
+            </div>
+            <div class="expenseDetail">
+                <h2><b>EXPENSE</b></h2>
+                <br><br>
+                <!--
+                <div class="expense_element" id="exp-%id%">
+                    <div class="expenseDescription">
+                        %description%
+                    </div>
+                    <div class="expenseValue">
+                        %value%
+                        <img class="deleteIcon" width="25px" height="auto" src="Icons/delete.png">
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+
+
+    </body>
+    <script src="JavaScript/script.js"></script>
+</html>
